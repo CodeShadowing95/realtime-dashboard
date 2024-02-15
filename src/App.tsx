@@ -40,6 +40,9 @@ function App() {
                 <Routes>
                   <Route index element={<WelcomePage />} />
                   <Route index element={<Home />} />
+                  <Route path="/login" index element={<Login />} />
+                  <Route path="/register" index element={<Register />} />
+                  <Route path="/forgot-password" index element={<ForgotPassword />} />
                 </Routes>
                 <RefineKbar />
                 <UnsavedChangesNotifier />
