@@ -5,7 +5,7 @@ import { fetchWrapper } from "./fetch-wrapper";
 
 
 export const API_BASE_URL = 'https://api.crm.refine.dev';
-export const API_URL = 'https://api.crm.refine.dev';
+export const API_URL = `${API_BASE_URL}/graphql`;
 export const WS_URL = 'wss://api.crm.refine.dev/graphql';
 
 /* The code is creating a new instance of the `GraphQLClient` class and assigning it to the `client`
